@@ -38,5 +38,6 @@ def find_a(array)
     if word[0] == 'a'
       word.join
       new_array << word
-  end
+   end
+   new_array
 end
