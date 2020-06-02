@@ -37,8 +37,8 @@ def find_a(array)
     word.split
     word.join << new_array if word.first == 'a'
     word.join
-    
-    
+
+
     end
-  end 
+  end
 end
