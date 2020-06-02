@@ -47,3 +47,13 @@ array.each do |number|
 end
 sum
 end
+
+def add_s(array)
+  new_array = []
+  counter =0
+  array.each do |word|
+    word.split
+    word[length-1] = 's' unless
+end
+return new_array
+end
