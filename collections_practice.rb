@@ -25,5 +25,8 @@ end
 
 def kesha_maker(array)
   array.collect do |word|
-    
+    word.split
+    word[2] = '$'
+    word.join
+  end 
 end
