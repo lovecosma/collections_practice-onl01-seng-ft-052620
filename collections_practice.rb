@@ -54,6 +54,7 @@ def add_s(array)
   array.each_with_index do |word, index|
     word.split
     word[length-1] = 's' unless index == 1
+    new_array << word
 end
 return new_array
 end
