@@ -53,7 +53,7 @@ def add_s(array)
   counter =
   array.each_with_index do |word, index|
     word.split
-    word[length-1] = 's' unless word
+    word[length-1] = 's' unless index == 1
 end
 return new_array
 end
