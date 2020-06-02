@@ -36,11 +36,6 @@ def find_a(array)
   array.each do |word|
     word.split
      new_array << word if word[0] == "a"  
-#     if word[0] == 'a'
-#       word.join
-#       word << new_array
-#     end
-# end
-# new_array
 end
+new_array
 end
