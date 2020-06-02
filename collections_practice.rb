@@ -50,10 +50,10 @@ end
 
 def add_s(array)
   new_array = []
-  counter =0
-  array.each do |word|
+  counter =
+  array.each_with_index do |word, 0|
     word.split
-    word[length-1] = 's' unless
+    word[length-1] = 's' unless word
 end
 return new_array
 end
