@@ -37,5 +37,5 @@ def find_a(array)
     word.split
      new_array << word if word[0] == "a"
 end
-new_array
+return new_array
 end
