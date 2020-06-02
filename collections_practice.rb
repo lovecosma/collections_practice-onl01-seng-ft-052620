@@ -30,3 +30,15 @@ def kesha_maker(array)
     word
   end
 end
+
+def find_a(array)
+  new_array = []
+  array.each do |word|
+    word.split
+    word.join << new_array if word.first == 'a'
+    word.join
+    
+    
+    end
+  end 
+end
