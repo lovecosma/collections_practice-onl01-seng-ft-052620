@@ -51,7 +51,7 @@ end
 def add_s(array)
   new_array = []
   counter =
-  array.each_with_index do |word, 0|
+  array.each_with_index do |word, index|
     word.split
     word[length-1] = 's' unless word
 end
